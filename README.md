@@ -2,7 +2,7 @@
 
 The "First Website Workshop" assignment from GFA.
 
-Here's the link to the [live page](https://arthurpog.github.io/gfa-first-website-workshop).
+Here's the link to the [live page](https://arthurpog.github.io/My-First-GFA-Website).
 
 Here's a screenshot of the **live webpage**:
 
