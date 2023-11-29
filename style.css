@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+/* We define the font size for the whole document and the colours that
+we will be using so that I don't have to type them in every time. */
+:root {
+    font-size: 20px;
+
+    --link: #ff0099;
+    --linkHover: #ffffff;
+    --linkVisited: #ff0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 20.75em;
+    font-family: consolas, courier;
+    background: url(images/bg.webp);
+}
+
+header {
+    background: #333333;
+}
+
+main {
+    padding: 10%;
+}
+
+nav {
+    padding: 0.5em 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLogo {
+    display: flex;
+    min-width: 2em;
+}
+
+.logo {
+    height: auto;
+    width: 2em;
+}
+
+a {
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--linkHover);
+}
+
+a:hover.logo {
+    filter: invert(25%) sepia(87%) saturate(7484%) hue-rotate(315deg) brightness(101%) contrast(110%);
+}
+
+/* a:visited {
+    color: var(--linkVisited);
+} */
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: var(--link);
+    margin-top: 2em;
+}
+
+.job-description {
+    padding: 1em 0 0 0;
+}
+
+.divider {
+    margin: 4em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    padding: 1em 0 0 0;
+}
+
+.definition {
+    padding: 1em 0 0 0;
+    font-size: 0.75em;
+}
+
+@media only screen and (min-width: 40em) {
+
+    .navText a {
+        margin: 0 0 0 2em;
+    }
+}
